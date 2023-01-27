@@ -1,0 +1,206 @@
+body{background-image: url("imagem\ de\ fundo.png");
+    background-color: black;
+    color:white;
+    background-attachment: scroll;
+    text-align: center;
+    orientation:auto;
+    grid: 0;
+}
+
+ul{
+    list-style-position: inside;
+    text-align: center;
+    color:white
+}
+
+ol{
+    list-style:none;
+}
+
+a{
+    color: rgb(88, 226, 54);
+}
+
+form{
+    display: inline-block;
+    text-align: right;
+}
+
+s{
+    visibility: hidden;
+}
+
+table{
+    border:white solid;
+	width:550px;
+	padding:0px;
+	font-size:25px;
+	border-collapse:collapse;
+}
+
+figcaption{
+    visibility: hidden;
+}
+
+n{
+    display: inline-block;
+    text-align: left;
+}
+
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 120px;;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+}
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+body{font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+h1{font-family: cursive;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+
+h2{font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+h3{font-family: sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+}
+
+h1{background: rgb(88, 226, 54);
+    color: black;
+    padding: 5px 5px 5px 15px;
+    border-style: double;
+    border-width: thick;
+    border-color: white;
+}
+
+img{max-width:500px;
+    max-height:450px;
+    width: auto;
+    height: auto;
+    padding: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+}
+
+ul{padding: 10px 20px 10px 10px;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+    margin: 5px 0px 0px 0px
+}
+
+ol{background:rgba(79, 83, 77, 0.699);
+    padding: 10px 20px 10px 10px;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+}
+
+h2{background: rgb(88, 226, 54, 0.726);
+    color: black;
+    padding: 5px 5px 5px 5px;
+    border-style: double;
+    border-width: medium;
+    border-color: white
+}
+
+h3{color: white;
+    padding: 5px 5px 5px 5px;
+    border-style: double;
+    border-width: medium;
+    border-color: white
+}
+---------------------------------------
+input{
+    background-color: white;
+    width: 75%;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: green;
+    margin-bottom: 20px;
+}
+
+textarea{
+    background-color: white;
+    width: 75%;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 20px;
+    border-color: green;
+    border-width: 2px;
+    font-family: "Poppins", sans-serif;
+    resize: none;
+}
+----------------------------------------
+table{
+    color: white
+}
+
+nav{
+    background: rgb(88, 226, 54);
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: #abcc26;
+    margin-top: 35px;
+    padding: 3em;
+    grid-column: 1 / -1;
+    position: sticky;
+}
+
+.footer .menu2 li {
+    display: inline-block;
+    margin: 1em 1em 1em 1em;
+}
+
+.footer ul{
+    justify-content: center;
+}
+
+.footer img{
+    width: 140px;
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer a:hover{
+    color: #fd8505;
+}

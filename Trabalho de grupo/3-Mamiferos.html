@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Ricardo Pinho e Rodrigo Pedra">
+        <title>Trabalho de grupo sobre mamíferos</title>
+        <link rel="stylesheet" href="CSS/CSS.css" type="text/css">
+    </head>
+
+    <body>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="Imagens/Logo2.png" alt="logo"></a>
+            </div>
+            <div class="toggle">
+                <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="" class="isactive">Animais</a></li>
+                <li><a href="">Marcações</a></li>
+                <li><a href="">Sobre Nós</a></li>
+                <li><a href="">Contactos</a></li>
+            </ul>
+        </nav>
+        <marquee bgcolor="yellowgreen" direction="left">Conheça a nova espécie adicionada à nossa base de dados esta semana!</marquee>
+        <a href="#" class="top-arrow">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+        <hr>
+        <p>
+            <h1 id="Mamíferos">
+                Mamíferos
+            </h1>
+        </p>
+        <p>
+            Os mamíferos são animais vertebrados e estão divididos em dois grupos, os aquáticos e os terrestres.
+        </p>
+        <p>
+            Cientificamente, os mamíferos são classificados da seguinte maneira:
+        </p>
+        <b>Domínio:</b> <span id="demo"></span><br>
+        <b>Reino:</b> <span id="demo1"></span><br>
+        <b>Filo:</b> <span id="demo2"></span><br>
+        <b>Subfilo:</b> <span id="demo3"></span><br>
+        <b>Superclasse:</b> <span id="demo4"></span><br>
+        <b>Classe:</b> <span id="demo5"></span><br>
+        <b>Subclasse:</b> <span id="demo6"></span><br>
+        <script>
+            var parser, xmlDoc;
+            txt1 = "<cientificamente>";
+            txt2 = "<Domínio> Eukaryota </Domínio>";
+            txt3 = "<Reino> Animalia </Reino>";
+            txt4 = "<Filo> Chordata </Filo>";
+            txt5 = "<Subfilo> Vertebrata </Subfilo>";
+            txt6 = "<Superclasse> Tetrapoda </Superclasse>";
+            txt7 = "<Classe> Synapsida </Classe>";
+            txt8 = "<Subclasse> Mammalia </Subclasse>";
+            txt9 = "</cientificamente>";
+            txt = txt1 + txt2 + txt3 + txt4 + txt5 + txt6 + txt7 + txt8 + txt9
+
+            parser = new DOMParser();
+            xmlDoc = parser.parseFromString(txt,"text/xml");
+
+            document.getElementById("demo").innerHTML =
+            xmlDoc.getElementsByTagName("Domínio")[0].childNodes[0].nodeValue;
+            document.getElementById("demo1").innerHTML =
+            xmlDoc.getElementsByTagName("Reino")[0].childNodes[0].nodeValue;
+            document.getElementById("demo2").innerHTML =
+            xmlDoc.getElementsByTagName("Filo")[0].childNodes[0].nodeValue;
+            document.getElementById("demo3").innerHTML =
+            xmlDoc.getElementsByTagName("Subfilo")[0].childNodes[0].nodeValue;
+            document.getElementById("demo4").innerHTML =
+            xmlDoc.getElementsByTagName("Superclasse")[0].childNodes[0].nodeValue;
+            document.getElementById("demo5").innerHTML =
+            xmlDoc.getElementsByTagName("Classe")[0].childNodes[0].nodeValue;
+            document.getElementById("demo6").innerHTML =
+            xmlDoc.getElementsByTagName("Subclasse")[0].childNodes[0].nodeValue;
+        </script>
+        <hr>
+        <p>
+            <h2 id="Características">
+                Características
+            </h2>
+        </p>
+        <p>
+            Os mamíferos têm algumas características exclusivas desta classe de animais. As principais e as mais conhecidas são o facto de nascerem da barriga da mãe e se alimentarem do leite produzido por esta durante os primeiros meses de vida. Outra característica muita conhecida é facto de a maioria dos mamíferos apresentarem pelos a revistir a pele.
+        </p>
+        <hr>
+        <p>
+            <h3 id="Subclasses">
+                Os mamíferos estão subdivididos em subclasses:
+                <ul>
+                    <li>Prototheria;</li>
+                    <li>Theria:</li>
+                        <ul>
+                            <li>Marsupialia;</li>
+                            <li>Placentalia:</li>
+                                <ul>
+                                    <li>Afrotheria;</li>
+                                    <li>Xenarthra;</li>
+                                    <li>Euarchontoglires;</li>
+                                    <li>Laurasiatheria.</li>
+                                </ul>
+                        </ul>
+                </ul>
+            </h3>
+        </p>
+        <strong>
+            <div class="tooltip">Se não entendeu bem as sublasses passe o rato por cima deste texto:
+                <span class="tooltiptext">
+                    Prototheria e Theria são subclasses.</br>
+                    Theria divide-se em Marsupialia e em Placentalia que são Infraclasses.</br>
+                    Placentalia divide-se em Afrotheria, Xenarthra, Euarchontoglires e em Laurasiatheria que são Superordens.
+                </span>
+            </div>
+        </strong>
+        <div class="container">
+            <footer class="footer">
+                <a href="index.html" class="brand"><img src="Imagens/Logo2.png" alt="logo"></a>
+                <ul class="menu2">
+                    <li><a href="/paginas/index.html">Início</a></li>
+                    <li><a href="/paginas/animais.html">Animais</a></li>
+                    <li><a href="/paginas/marcacoes.html">Marcações</a></li>
+                    <li><a href="/paginas/sobre.html">Sobre Nós</a></li>
+                    <li><a href="/paginas/contactos.html">Contactos</a></li>
+                </ul>
+            </footer>        
+        </div>
+        <script>
+            $(function(){
+                $(".toggle").on("click", function(){
+                    if($(".menu").hasClass("active")){
+                        $(".menu").removeClass("active");
+                        $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+                    } else{
+                        $(".menu").addClass("active");
+                        $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+                    }
+                });
+            });
+        </script>  
+        <script src="javascript/animaçao.js"></script>
+    </body>
+</html>
