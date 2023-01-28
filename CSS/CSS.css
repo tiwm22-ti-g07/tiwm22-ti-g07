@@ -1,41 +1,21 @@
-body{background-image: url("imagem\ de\ fundo.png");
+body{background-image: url("Imagens/imagem de fundo.png");
     background-color: black;
     color:white;
     background-attachment: scroll;
     text-align: center;
     orientation:auto;
     grid: 0;
-}
-
-ul{
-    list-style-position: inside;
-    text-align: center;
-    color:white
-}
-
-ol{
-    list-style:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-variant: normal;
 }
 
 a{
     color: rgb(88, 226, 54);
 }
 
-form{
-    display: inline-block;
-    text-align: right;
-}
-
 s{
     visibility: hidden;
-}
-
-table{
-    border:white solid;
-	width:550px;
-	padding:0px;
-	font-size:25px;
-	border-collapse:collapse;
 }
 
 figcaption{
@@ -61,35 +41,6 @@ n{
     opacity: 1;
 }
 
-body{font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-variant: normal;
-}
-
-h1{font-family: cursive;
-    font-style: normal;
-    font-variant: small-caps;
-    font-weight: bolder;
-}
-
-h2{font-family: sans-serif;
-    font-style: normal;
-    font-variant: normal;
-}
-
-h3{font-family: sans-serif;
-    font-style: normal;
-    font-variant: small-caps;
-}
-
-h1{background: rgb(88, 226, 54);
-    color: black;
-    padding: 5px 5px 5px 15px;
-    border-style: double;
-    border-width: thick;
-    border-color: white;
-}
-
 img{max-width:500px;
     max-height:450px;
     width: auto;
@@ -104,7 +55,10 @@ ul{padding: 10px 20px 10px 10px;
     border-style: solid;
     border-width: medium;
     border-color: white;
-    margin: 5px 0px 0px 0px
+    margin: 5px 0px 0px 0px;
+    list-style-position: inside;
+    text-align: center;
+    color:white
 }
 
 ol{background:rgba(79, 83, 77, 0.699);
@@ -112,6 +66,20 @@ ol{background:rgba(79, 83, 77, 0.699);
     border-style: solid;
     border-width: medium;
     border-color: white;
+    list-style:none;
+}
+
+h1{background: rgb(88, 226, 54);
+    color: black;
+    padding: 5px 5px 5px 15px;
+    border-style: double;
+    border-width: thick;
+    border-color: white;
+    font-family: cursive;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bolder;
+    text-align: center;
 }
 
 h2{background: rgb(88, 226, 54, 0.726);
@@ -119,16 +87,27 @@ h2{background: rgb(88, 226, 54, 0.726);
     padding: 5px 5px 5px 5px;
     border-style: double;
     border-width: medium;
-    border-color: white
+    border-color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
 }
 
 h3{color: white;
     padding: 5px 5px 5px 5px;
     border-style: double;
     border-width: medium;
-    border-color: white
+    border-color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
 }
----------------------------------------
+
+form{
+    display: inline-block;
+    text-align: right;
+}
+
 input{
     background-color: white;
     width: 75%;
@@ -154,9 +133,14 @@ textarea{
     font-family: "Poppins", sans-serif;
     resize: none;
 }
-----------------------------------------
+
 table{
-    color: white
+    color: white;
+    border:white solid;
+	width:550px;
+	padding:0px;
+	font-size:25px;
+	border-collapse:collapse;
 }
 
 nav{
@@ -168,7 +152,7 @@ nav{
 
 .footer{
     text-align: center;
-    background-color: #abcc26;
+    background-color: rgb(88, 226, 54);
     margin-top: 35px;
     padding: 3em;
     grid-column: 1 / -1;
@@ -202,5 +186,5 @@ nav{
 }
 
 .footer a:hover{
-    color: #fd8505;
+    color: rgb(88, 226, 54);
 }
