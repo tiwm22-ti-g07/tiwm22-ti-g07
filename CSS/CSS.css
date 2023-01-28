@@ -14,6 +14,19 @@ a{
     color: white;
 }
 
+button{
+    background-color: rgb(88, 226, 54, 0.726);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 s{
     visibility: hidden;
 }
@@ -84,7 +97,7 @@ h1{background: rgb(88, 226, 54);
 
 h2{background: rgb(88, 226, 54, 0.726);
     color: black;
-    padding: 5px 5px 5px 5px;
+    padding: 5px;
     border-style: double;
     border-width: medium;
     border-color: white;
@@ -94,7 +107,7 @@ h2{background: rgb(88, 226, 54, 0.726);
 }
 
 h3{color: white;
-    padding: 5px 5px 5px 5px;
+    padding: 5px;
     border-style: double;
     border-width: medium;
     border-color: white;
@@ -186,5 +199,8 @@ nav{
 }
 
 .footer a:hover{
-    color: rgb(88, 226, 54);
+    color: black;
 }
+
+g{padding: 0;
+    font-size: 50px}
