@@ -31,8 +31,16 @@ s{
     visibility: hidden;
 }
 
+hr{
+    margin-bottom: 25px;
+}
+
 figcaption{
-    visibility: hidden;
+    font-size: 20px;
+    color:rgb(88, 226, 54);
+    margin-top: 10px;
+    font-family: cursive;
+    font-variant: small-caps;
 }
 
 n{
