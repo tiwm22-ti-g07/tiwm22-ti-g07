@@ -171,6 +171,11 @@ nav{
     align-items: center;
 }
 
+nav a:hover{
+    color: black;
+
+}
+
 .footer{
     text-align: center;
     background-color: rgb(88, 226, 54);
