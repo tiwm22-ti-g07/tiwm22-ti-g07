@@ -34,6 +34,7 @@ Esta é a nossa quarta página de HTML, onde mostramos vários exemplos de mamí
 | | |
 :---: | :---:
 ![An alternative description](Imagens/5.PNG) | ![An alternative description](Imagens/6.PNG)
+
 Estas duas imagens são exemplos do que aparece quando carregamos em cada um dos animais.
 
 ### SideMap
