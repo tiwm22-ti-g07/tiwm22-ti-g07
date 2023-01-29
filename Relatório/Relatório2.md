@@ -19,4 +19,8 @@ Este era mais ao menos o esquema que nós planeamos fazer no nosso trabalho. Fic
 
 ### SideMap
 
-(Imagens/SideMap.)
+(Imagens/Sitemap.PNG)
+
+---
+[< Previous](Relatório1.md) | [^ Main](../../../) | [Next >](Relatório3.md)
+:--- | :---: | ---: 

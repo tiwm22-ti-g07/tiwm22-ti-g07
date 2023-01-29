@@ -13,3 +13,7 @@ Neste trabalho será a primeira vez que iremos utilizar as plataformas “Github
 
 Link do repositório do github: https://github.com/A042419/tiwm22-ti-g07 </br>
 Link para o netlify: https://tiwm22-ti-g07.netlify.app
+
+---
+[< Previous](Relatório3.md) | [^ Main](../../../) | Next >
+:--- | :---: | ---: 
