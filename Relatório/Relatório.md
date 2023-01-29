@@ -1,5 +1,6 @@
 ﻿**Descrição**
-Ricardo Pinho @Pinho09
+
+Ricardo Pinho @Pinho09</br>
 Rodrigo Pedra @A042419
 
 No âmbito da cadeira de Tecnologias de Internet, do curso Tecnologias de Informação, Web e Multimédia, o professor Marco Aurélio Amaro Oliveira pediu-nos para desenvolver um trabalho de grupo com “Animais” sendo a área temática. Foi-nos também pedido para escolher um tema específico relacionado com a área temática e portanto decidimos escolher o tema “Mamíferos”. O nosso trabalho sobre os mamíferos terá de ser feito através de um documento de quatro páginas de HTML estáticas e um documento XML e o seu respetivo schema. Durante o seu desenvolvimento teremos de utilizar CSS3 e JavaScript. No final iremos ter de apresentar o trabalho, durante a aula, com os conhecimentos que fomos adquirindo ao longo do trabalho realizado. 
