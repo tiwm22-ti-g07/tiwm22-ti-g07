@@ -11,7 +11,7 @@ Para a realização do nosso trabalho, decidimos planear alguns tópicos que nos
 
 Neste trabalho será a primeira vez que iremos utilizar as plataformas “Github” e “Netlify”, ferramentas que no futuro nos poderão vir a ser muito úteis, e portanto será uma boa experiência que pretendemos levar com rigor. Iremos dar o nosso melhor para apresentar um trabalho completo, bem estruturado e interessante. 
 
-Link do repositório do github: https://github.com/A042419/tiwm22-ti-g07 </br>
+Link do repositório do github: https://github.com/tiwm22-ti-g07/tiwm22-ti-g07 </br>
 Link para o netlify: https://tiwm22-ti-g07.netlify.app
 
 ---
