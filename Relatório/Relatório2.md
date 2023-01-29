@@ -6,20 +6,42 @@ As ferramentas que utilizamos foram o Visual Studio Code, o GitHub, o Netlify, o
 
 ### Sketchs
 
-(Imagens/Sketch.png)
+| | |
+:---: | :---:
+![An alternative description](Imagens/Sketch.png)
 Este era mais ao menos o esquema que nós planeamos fazer no nosso trabalho. Ficou com algumas diferenças, mas no fundo teve uma estrutura semelhante.
 
-(Imagens/1)
+| | |
+:---: | :---:
+![An alternative description](Imagens/1.PNG)
+Esta é a nossa primeira página de HTML, onde vemos o formulário.
 
-(Imagens/)
-(Imagens/)
-(Imagens/)
-(Imagens/)
-(Imagens/)
+| | |
+:---: | :---:
+![An alternative description](Imagens/2.PNG)
+Esta é a nossa segunda página de HTML, onde falamos um pouco sobre nós e disponibilizamos os documentos.
+
+| | |
+:---: | :---:
+![An alternative description](Imagens/3.PNG)
+Esta é a nossa terceira página de HTML, onde falamos um pouco sobre os mamíferos em geral.
+
+| | |
+:---: | :---:
+![An alternative description](Imagens/4.PNG)
+Esta é a nossa quarta página de HTML, onde mostramos vários exemplos de mamíferos com algumas informações.
+
+| | |
+:---: | :---:
+![An alternative description](Imagens/5.PNG) | ![An alternative description](Imagens/6.PNG)
+Estas duas imagens são exemplos do que aparece quando carregamos em cada um dos animais.
 
 ### SideMap
 
-(Imagens/Sitemap.PNG)
+| | |
+:---: | :---:
+![An alternative description](Imagens/Sitemap.PNG)
+Aqui temos um sitemap para ajudar a perceber o website.
 
 ---
 [< Previous](Relatório1.md) | [^ Main](../../../) | [Next >](Relatório3.md)
